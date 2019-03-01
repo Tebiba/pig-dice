@@ -9,7 +9,7 @@ function rollDice(){
     var diceTotal = d1 + d2;
     die1.innerHTML = d1;
     die2.innerHTML = d2;
-    status.innerHTML = diceTotal;
+    status.innerHTML = "Score: " + diceTotal;
 }
 if(d1 == d2){
     status.innerHTML += " DOUBLES! You get a free turn!!";
