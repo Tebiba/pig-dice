@@ -6,10 +6,53 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-
     <title>Pig Dice</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Pig Dice</h1>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="well">
+        <h4>Player 1</h4>
+        <div class="dice" id="die1">0</div>
+        <div class="dice" id="die2">0</div>
+        <p><button onclick="rollDice()" type="button" class="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" name="button">Roll Dice</button></p>
+        <h3 id ="status2" style= "">Score:</h3>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="spacer"></div>
+
+
+        <div class="col-md-6">
+          <div class="well">
+            <h4>Player 2</h4>
+              <div class="dice" id="die3">0</div>
+              <div class="dice" id="die4">0</div>
+          <br>
+              <p><button onclick="rollDice()" type="button" class="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" name="button">Roll Dice</button></p>
+
+              <h3 id ="status2" style= "">Score:</h3>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
   </body>
 </html>

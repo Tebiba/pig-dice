@@ -1,0 +1,49 @@
+
+.col-md-6 {
+text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  color: #e65100
+}
+h3 {
+  text-align: center;
+  color: #e65100
+}
+
+.well1 {
+  background-color: white;
+  border: 0px;
+}
+
+.button {
+
+}
+
+.dice {
+  background-color: #e65100;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 10px 10px;
+  padding: 32px 16px;
+  cursor: pointer;
+  width: 200px;
+  color: white;
+  text-align: center;
+}
+
+#background {
+  background: url(../img/hero.jpg);
+  height:100vh;
+  background-position: top left;
+  background-size: cover;
+  margin: 0px;
+  padding:0px;
+}
+.spacer {
+  height:10px;
+}
