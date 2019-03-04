@@ -14,10 +14,17 @@ Player.prototype.roll = function() {
     this.currently = 0;
     counter++;
   }
+
   else {
     this.currently += this.dieRoll;
   }
 }
+
+Player.prototype.hold = function() {
+  this.total += this.currently;
+  this.currently = 0;
+}
+
 
 
 
