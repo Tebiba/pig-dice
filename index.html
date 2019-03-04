@@ -20,41 +20,42 @@
             <li>If the player rolls a 1, they lose their temporary score. </li>
             <li>If player gets any other number, they can decide to continue and roll the die.</li>
             <li>If player decides to hold, then their turn total (temporary score) is added to the overall score. </li>
-            <li>  The first player to score 100 points wins the game. </li>
+            <li>The first player to score 100 points wins the game.</li>
           </ol>
         </div>
 
       <div class="spacer"></div>
       <div class="spacer"></div>
-      <button id="new-game" class="btn-success btn">NEW GAME</button>
+      <button id="startButton" class="btn btn-default">Start Game</button>
 
-        <div class="col-md-6">
-          <div class="well">
-            <h4>Player 1 <span id = "player1Name"><span></h4>
-              <div class="dice" id="die1">0</div>
-              <div class="dice" id="die2">0</div>
-        <p><button onclick="rollDice()" type="button" class="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" name="button">Roll Dice</button></p>
-        <h3 id ="status" style= "">Score _</h3>
-        <h2 id="total-score-1">Total _</h2>
-          </div>
+
+      <div class="col-md-5">
+        <div class="player1">
+          <h4>Player 1 <span id = "player1Name"><span></h4>
+          <p id="player1Turn"></p>
+          <h3>Score:<span id="player1Score"></span></h3>
+          <h3>Cumulative:<span id="player1Cumulative"></span></h3>
         </div>
-
-
-
-      <div class="spacer"></div>
-
-        <div class="col-md-6">
-          <div class="well">
-            <h4>Player 2 <span id = "player2Name"><span></h4>
-              <div class="dice" id="die3">0</div>
-              <div class="dice" id="die4">0</div>
-        <p><button onclick="rollDice()" type="button" class="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" name="button">Roll Dice</button></p>
-        <h3 id ="status2" style= "">Score: _</h3>
-        <h2 id="total-score-2">Total _</h2>
-          </div>
-        </div>
-
       </div>
 
+      <div class="col-md-2">
+        <button onclick="rollDice()" type="button" class="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" name="button">Roll Dice</button>
+        <button id="holdButton" type="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;">Hold Dice</button>
+      </div>
+
+      <div class="col-md-5">
+        <div class="player2">
+          <h4>Player 2 <span id = "player2Name"><span></h4>
+          <p id="player2Turn"></p>
+          <h3>Score:<span id="player2Score"></span></h3>
+          <h3>Cumulative:<span id="player2Cumulative"></span></h3>
+        </div>
+      </div>
+
+      <div class="dice" id="die1">0</div>
+      <div class="dice" id="die2">0</div><h3 id ="status" style= "">Score _</h3>
+      <h2 id="total-score-1">Total _</h2>
+
+      </div>
   </body>
 </html>
