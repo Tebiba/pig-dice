@@ -1,6 +1,30 @@
 // business logic
+var counter = Math.floor(Math.random() * 6) + 1;
+function Player(name) {
+  this.name = name;
+  this.currently = 0;
+  this.total = 0;
+  this.die1 = [1,2,3,4,5,6];
+  this.dieRoll = 0;
+}
 
-function rollDice(){
+Player.prototype.roll = function() {
+  this.dieRoll= this.die1[Math.floor(Math.random()*this.die1.length)];
+  if(this.dieRoll === 1) {
+    this.currently = 0;
+    counter++;
+  }
+  else {
+    this.currently += this.dieRoll;
+  }
+}
+
+
+
+
+
+
+/*function rollDice(){
     var die1 = document.getElementById("die1");
     var die2 = document.getElementById("die2");
     var status = document.getElementById("status");
