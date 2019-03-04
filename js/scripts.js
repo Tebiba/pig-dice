@@ -25,36 +25,12 @@ Player.prototype.hold = function() {
   this.currently = 0;
 }
 
-
-
-
-
-
-
-/*function rollDice(){
-    var die1 = document.getElementById("die1");
-    var die2 = document.getElementById("die2");
-    var status = document.getElementById("status");
-    var d1 = Math.floor(Math.random() * 6) + 1;
-    var d2 = Math.floor(Math.random() * 6) + 1;
-    var diceTotal = d1 + d2;
-    die1.innerHTML = d1;
-    die2.innerHTML = d2;
-    status.innerHTML = "Score: " + diceTotal;
-  $("#score").append(dice1+dice2);
-}
-//if(d1 == d2){
-    //status.innerHTML += " DOUBLES! You get a free turn!!";
-//}
-
-/*function rollDice(){
-    var die1 = document.getElementById("die3");
-    var die2 = document.getElementById("die4");
-    var status = document.getElementById("status");
-    var d1 = Math.floor(Math.random() * 6) + 1;
-    var d2 = Math.floor(Math.random() * 6) + 1;
-    var diceTotal = d3 + d4;
-    die1.innerHTML = d3;
-    die2.innerHTML = d4;
-    status.innerHTML = diceTotal;
-}*/
+$(function() {
+  function playerTurn(turnPlayer, otherPlayer) {
+    $("#" + otherPlayer + "Turn").text("");
+    $("#" + turnPlayer + "Turn").html("<h1>Your Turn</h1>");
+    $("." + otherPlayer + " img").removeClass("animated zoomIn");
+    $("." + otherPlayer + " img").addClass("desaturate");
+    $("." + turnPlayer + " img").addClass("animated zoomIn");
+    $("." + turnPlayer + " img").removeClass("desaturate");
+  }
