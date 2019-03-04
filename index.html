@@ -11,64 +11,50 @@
   <body>
     <div class="container">
       <h1>Pig Dice</h1>
-      <p>The objective of Pig Dice game is to score 100 points before the opponent does. The game is played with a siX-sided dice.</p>
-      <h2>Game Play</h2>
-      <ol>
-      <li>In each turn a player rolls a die repeatedly until either a 1 is rolled or player decides to holdand pass on the turn to its opponent.</li>
-      <li>The number player rolls is added to a temporary score.</li>
-      <li>If the player rolls a 1, they lose their temporary score. </li>
-      <li>If player gets any other number, they can decide to continue and roll the die.</li>
-      <li>If player decides to hold, then their turn total (temporary score) is added to the overall score. </li>
-      <li>  The first player to score 100 points wins the game. </li>
-      </ol>
+      <p>The objective of Pig Dice game is to score 100 points before the opponent does. The game is played with a six-sided dice.</p>
+      <h3>Instructions on how to play the game</h3>
+        <div class="well">
+          <ol>
+            <li>In each turn a player rolls a die repeatedly until either a 1 is rolled or player decides to holdand pass on the turn to its opponent.</li>
+            <li>The number player rolls is added to a temporary score.</li>
+            <li>If the player rolls a 1, they lose their temporary score. </li>
+            <li>If player gets any other number, they can decide to continue and roll the die.</li>
+            <li>If player decides to hold, then their turn total (temporary score) is added to the overall score. </li>
+            <li>  The first player to score 100 points wins the game. </li>
+          </ol>
+        </div>
 
-      <div class="row">
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <button id="new-game" class="btn-success btn">NEW GAME</button>
 
         <div class="col-md-6">
           <div class="well">
-            <h4>Player 1</h4>
+            <h4>Player 1 <span id = "player1Name"><span></h4>
               <div class="dice" id="die1">0</div>
               <div class="dice" id="die2">0</div>
         <p><button onclick="rollDice()" type="button" class="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" name="button">Roll Dice</button></p>
         <h3 id ="status" style= "">Score _</h3>
-        <h2 id="total-0">Total _</h2>
+        <h2 id="total-score-1">Total _</h2>
           </div>
         </div>
 
-      </div>
 
 
       <div class="spacer"></div>
 
-
-      <div class="row">
-
         <div class="col-md-6">
           <div class="well">
-            <h4>Player 2</h4>
+            <h4>Player 2 <span id = "player2Name"><span></h4>
               <div class="dice" id="die3">0</div>
               <div class="dice" id="die4">0</div>
         <p><button onclick="rollDice()" type="button" class="button" style="height:50px; width:150px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" name="button">Roll Dice</button></p>
         <h3 id ="status2" style= "">Score: _</h3>
+        <h2 id="total-score-2">Total _</h2>
           </div>
         </div>
 
       </div>
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
 
   </body>
 </html>

@@ -10,10 +10,11 @@ function rollDice(){
     die1.innerHTML = d1;
     die2.innerHTML = d2;
     status.innerHTML = "Score: " + diceTotal;
+  $("#score").append(dice1+dice2);
 }
-if(d1 == d2){
-    status.innerHTML += " DOUBLES! You get a free turn!!";
-}
+//if(d1 == d2){
+    //status.innerHTML += " DOUBLES! You get a free turn!!";
+//}
 
 /*function rollDice(){
     var die1 = document.getElementById("die3");
