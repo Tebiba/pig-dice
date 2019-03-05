@@ -1,7 +1,7 @@
 
 h1 {
   text-align: center;
-  color: #e65100
+  color: White;
 }
 h3 {
   text-align: center;
@@ -11,8 +11,7 @@ h3 {
 .well1 {
   background-color: white;
   border: 0px;
-  margin-left: 40%;
-  mar
+  align-items: center;
 }
 
 .dice {
@@ -39,4 +38,22 @@ h3 {
 }
 .spacer {
   height:10px;
+}
+
+.dieValue {
+  font-size: 3em;
+  border: 2px;
+}
+
+
+#startButton {
+  margin-left: 40%;
+}
+
+.instructions {
+  margin-left: 15%;
+}
+
+.col-md-6 {
+  margin-left: 15%;
 }
