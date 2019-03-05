@@ -20,7 +20,7 @@ The game of Pig is a very simple jeopardy dice game in which two players race to
 * Player 2 begins,rolls any number other than 1, that roll is added to round total
 * If Player 2 rolls a 1, no score is added and the round for Player 2 ends and the cycle repeats
 * If a player chooses to "HOLD", their turn total is added to their score, and it becomes the next player's turn
-* When a player's total score reaches 100 or more, game ends is the winner
+* When a player's total score reaches 100 or more, game ends and thats the winner
 
 ## Technologies Used
 *	HTML
