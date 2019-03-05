@@ -5,79 +5,59 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://www.fonts.com/font/comicraft/comicrazy?QueryFontType=Web&src=GoogleWebFonts" rel="stylesheet">
-
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <title>Pig Dice</title>
   </head>
-  <body>
-    <div id="background">
-      <div class="container">
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        <h1>Pig Dice</h1>
-        <div class="instructions"style="text ">
-        <p>The objective of Pig Dice game is to score 100 points before the opponent does. The game is played with a six-sided dice.</p>
-
-      <h3>Instructions on how to play the game</h3>
-          <ul>
-            <li>In each turn a player rolls a die repeatedly until either a 1 is rolled or player decides to hold and pass on the turn to its opponent.</li>
-            <li>The number player rolls is added to a temporary score.</li>
-            <li>If the player rolls a 1, they lose their temporary score. </li>
-            <li>If player gets any other number, they can decide to continue and roll the die.</li>
-            <li>If player decides to hold, then their turn total (temporary score) is added to the overall score. </li>
-            <li>The first player to score 100 points wins the game.</li>
-          </ul>
-        </div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-
-
+    <body>
+      <div id="background">
         <div class="container">
-          <div class="row">
-
-
-
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+          <h1>Pig Dice</h1>
+          <div class="instructions"style="text ">
+            <p>The objective of Pig Dice game is to score 100 points before the opponent does. The game is played with a six-sided dice.</p>
+            <h3>Instructions on how to play the game</h3>
+              <ul>
+                <li>In each turn a player rolls a die repeatedly until either a 1 is rolled or player decides to hold and pass on the turn to its opponent.</li>
+                <li>The number player rolls is added to a temporary score.</li>
+                <li>If the player rolls a 1, they lose their temporary score. </li>
+                <li>If player gets any other number, they can decide to continue and roll the die.</li>
+                <li>If player decides to hold, then their turn total (temporary score) is added to the overall score. </li>
+                <li>The first player to score 100 points wins the game.</li>
+              </ul>
+          </div>
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+          <div class="container">
             <form id="pig-dice">
               <div class="col-md-2"></div>
-
               <div class="col-md-4">
                 <div class="player1">
                   <div class="well">
-
-                <h2>Player 1</h2>
-                <h5>Current Score: <span class="current-score-1"></span></h5>
-                <h5>Total Score: <span class="total-score-1"></span></h5>
-                <button class="btn btn-primary" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #388e3c; text-align: center;" id="roll-btn-1" type="button" name="button">Roll</button>
-                <button class= "btn btn-danger" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" id="hold-btn-1" type="button" name="button">Hold</button>
+                    <h2>Player 1</h2>
+                    <h5>Current Score: <span class="current-score-1"></span></h5>
+                    <h5>Total Score: <span class="total-score-1"></span></h5>
+                    <button class="btn btn-primary" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #388e3c; text-align: center;" id="roll-btn-1" type="button" name="button">Roll</button>
+                    <button class= "btn btn-danger" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" id="hold-btn-1" type="button" name="button">Hold</button>
+                  </div>
+                </div>
               </div>
-              </div>
-              </div>
-
-
-
               <div class="col-md-4">
-              <div class="player2">
-                <div class="well">
-                <h2>Player 2</h2>
-                <h5>Current Score: <span class="current-score-2"></span></h5>
-                <h5>Total Score: <span class="total-score-2"></span></h5>
-                <button  class= "btn btn-primary" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #388e3c; text-align: center;" id="roll-btn-2" type="button" name="button">Roll</button>
-                <button  class= "btn btn-danger" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" id="hold-btn-2" type="button" name="button">Hold</button>
+                <div class="player2">
+                  <div class="well">
+                    <h2>Player 2</h2>
+                    <h5>Current Score: <span class="current-score-2"></span></h5>
+                    <h5>Total Score: <span class="total-score-2"></span></h5>
+                    <button class= "btn btn-primary" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #388e3c; text-align: center;" id="roll-btn-2" type="button" name="button">Roll</button>
+                    <button  class= "btn btn-danger" style="height:35px; width:100px; color: #ffffff; font-size: 14px; background-color: #e65100; text-align: center;" id="hold-btn-2" type="button" name="button">Hold</button>
+                  </div>
+                </div>
               </div>
-            </div>
-            </div>
-            <div class="col-md-2"></div>
+              <div class="col-md-2"></div>
             </form>
-            </div>
-
           </div>
-
+        </div>
       </div>
-      </div>
-      </div>
-
-      </div>
-      </div>
-  </body>
+    </body>
 </html>
