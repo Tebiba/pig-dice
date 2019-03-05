@@ -11,36 +11,24 @@ The game of Pig is a very simple jeopardy dice game in which two players race to
 * Open with a web browser of choice
 
 ### Behavior Driven Development
-Behavior
-Input
-Outcome
-Player 1 and Player 2 inputs name, and clicks start button
-Player 1: Olivia / Player 2: Matt / Click START
 Player 1 clicks ROLL button
-Click ROLL button
 Dice rolls and number is generated
 If Player 1 rolls any number other than 1, that roll is added to round total
-Roll = 2
-Round total = 2
 If Player 1 rolls a 1, no score is added and round for Player 1 ends
-Roll = 1
-Round total = 2 / Total score = 2 / Player 2 begins
-Repeat for Player 2
-Roll = 1
-Round total = 0 / Total score = 0 / Player 1 begins
-When a player's total score reaches 100 or more, game ends and winner page shows
-Player 1 total score = 100
-Winner page
+Player 2 begins,rolls any number other than 1, that roll is added to round total
+If Player 2 rolls a 1, no score is added and the round for Player 2 ends and the cycle repeats
+If a player chooses to "HOLD", their turn total is added to their score, and it becomes the next player's turn
+When a player's total score reaches 100 or more, game ends is the winner
 
 ## Technologies Used
-•	HTML
-•	CSS
-•	Bootstrap
-•	JavaScript
-•	jQuery
+*	HTML
+*	CSS
+*	Bootstrap
+*	JavaScript
+*	jQuery
 
 ## Support and contact details
-{If you run into any issues or have questions, ideas or concerns. Please feel free to reach out you or make a contribution to the code.}
+If you run into any issues or have questions, ideas or concerns. Please feel free to reach out you or make a contribution to the code.
 ### License
 *This software is licensed under the MIT license.*
 Copyright (c) {2019}
