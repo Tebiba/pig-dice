@@ -2,7 +2,7 @@
 h1 {
   text-align: center;
   color: #e65100;
-  font-family:'Comicrazy' cursive;
+  font-size: 4em;
 }
 h3 {
   text-align: center;
@@ -16,8 +16,6 @@ h3 {
   align-items: center;
 }
 
-
-
 #background {
   background: url(../img/hero.jpg);
   height:100vh;
@@ -26,14 +24,10 @@ h3 {
   margin: 0px;
   padding:0px;
 }
+
 .spacer {
   height:10px;
 }
-.p {
-  text-align: center;
-}
-
-
 
 .instructions {
   text-align: left;
