@@ -2,7 +2,7 @@
 #### The objective of Pig Dice game is to score 100 points before the opponent does. The game is played with a six-sided dice, 5 March,2018
 #### By Tabitha Obara
 ## Description
-The game of Pig is a very simple jeopardy dice game in which two players race to reach 100 points. Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player holds and scores the sum of the rolls (i.e. the turn total). At any time during a player's turn, the player is faced with two decisions:
+The game of Pig is a very simple jeopardy dice game in which two players race to reach 100 points. Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player holds and scores the sum of the rolls (i.e. the turn total). At any time during a player's turn, the player is faced with two decisions:Here is the link to the online version: https://tebiba.github.io/pig-dice/
 
 ## Setup/Installation Requirements
 * Here is the repository link: https://github.com/Tebiba/pig-dice.git
@@ -10,15 +10,17 @@ The game of Pig is a very simple jeopardy dice game in which two players race to
 * Open the HTML file
 * Open with a web browser of choice
 
+
 ### Behavior Driven Development
-Player 1 clicks ROLL button
-Dice rolls and number is generated
-If Player 1 rolls any number other than 1, that roll is added to round total
-If Player 1 rolls a 1, no score is added and round for Player 1 ends
-Player 2 begins,rolls any number other than 1, that roll is added to round total
-If Player 2 rolls a 1, no score is added and the round for Player 2 ends and the cycle repeats
-If a player chooses to "HOLD", their turn total is added to their score, and it becomes the next player's turn
-When a player's total score reaches 100 or more, game ends is the winner
+
+* Player 1 clicks ROLL button
+* Dice rolls and number is generated
+* If Player 1 rolls any number other than 1, that roll is added to round total
+* If Player 1 rolls a 1, no score is added and round for Player 1 ends
+* Player 2 begins,rolls any number other than 1, that roll is added to round total
+* If Player 2 rolls a 1, no score is added and the round for Player 2 ends and the cycle repeats
+* If a player chooses to "HOLD", their turn total is added to their score, and it becomes the next player's turn
+* When a player's total score reaches 100 or more, game ends is the winner
 
 ## Technologies Used
 *	HTML
@@ -28,7 +30,7 @@ When a player's total score reaches 100 or more, game ends is the winner
 *	jQuery
 
 ## Support and contact details
-If you run into any issues or have questions, ideas or concerns. Please feel free to reach out you or make a contribution to the code.
+If you run into any issues or have questions, ideas or concerns. Please feel free to reach out you or make a contribution to the code. Contact: tebiba@gmail.com
 ### License
 *This software is licensed under the MIT license.*
 Copyright (c) {2019}
