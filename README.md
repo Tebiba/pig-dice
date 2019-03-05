@@ -1,11 +1,11 @@
 # Pig Dice Game
-#### {The objective of Pig Dice game is to score 100 points before the opponent does. The game is played with a six-sided dice.}, 5 March,2018
+#### The objective of Pig Dice game is to score 100 points before the opponent does. The game is played with a six-sided dice, 5 March,2018
 #### By Tabitha Obara
 ## Description
 The game of Pig is a very simple jeopardy dice game in which two players race to reach 100 points. Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player holds and scores the sum of the rolls (i.e. the turn total). At any time during a player's turn, the player is faced with two decisions:
 
 ## Setup/Installation Requirements
-* Here is the repository link: https://github.com/Tebiba/rose-of-sharon-quiz-board.git
+* Here is the repository link: https://github.com/Tebiba/pig-dice.git
 * Clone this repository
 * Open the HTML file
 * Open with a web browser of choice
@@ -14,9 +14,8 @@ The game of Pig is a very simple jeopardy dice game in which two players race to
 Behavior
 Input
 Outcome
-Player 1 inputs name and Player 2 inputs name, and clicks start button
+Player 1 and Player 2 inputs name, and clicks start button
 Player 1: Olivia / Player 2: Matt / Click START
-Goes to game console
 Player 1 clicks ROLL button
 Click ROLL button
 Dice rolls and number is generated
@@ -32,8 +31,6 @@ Round total = 0 / Total score = 0 / Player 1 begins
 When a player's total score reaches 100 or more, game ends and winner page shows
 Player 1 total score = 100
 Winner page
-
-
 
 ## Technologies Used
 •	HTML
